@@ -1,0 +1,73 @@
+Running: C:\Xilinx\12.3\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib uni9000_ver -lib aim_ver -lib cpld_ver -lib xilinxcorelib_ver -o C:/Documents and Settings/P6/p6xin/P6/MIPS_tb_isim_beh.exe -prj C:/Documents and Settings/P6/p6xin/P6/MIPS_tb_beh.prj work.MIPS_tb work.glbl 
+ISim M.70d (signature 0x36e8438f)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/STALL_CONTROL.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/PC.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/NPC.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/MUX.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/MULTDIV.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/IR_MEM.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/IM.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/IF_ID.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/ID_EXE.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/GPR.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/EXT.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/EXE_WB.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/DM_EXT.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/DM.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/CONTROL_MEM.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/CONTROL_ID.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/CONTROL_EX.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/CONTROL.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/CMP.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/BYPASS_CONTROL.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/BYPASS.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/BE.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/ALU.v\" into library work
+WARNING:HDLCompiler:327 - "C:/Documents and Settings/P6/p6xin/P6/ALU.v" Line 63: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Documents and Settings/P6/p6xin/P6/ALU.v" Line 68: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/ADD4.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/MIPS.v\" into library work
+Analyzing Verilog file \"C:/Documents and Settings/P6/p6xin/P6/MIPS_tb.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/12.3/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+WARNING:HDLCompiler:327 - "C:/Documents and Settings/P6/p6xin/P6/ALU.v" Line 63: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Documents and Settings/P6/p6xin/P6/ALU.v" Line 68: Concatenation with unsized literal; will interpret as 32 bits
+Completed static elaboration
+Fuse Memory Usage: 59964 KB
+Fuse CPU Usage: 358 ms
+Compiling module IM
+Compiling module PC
+Compiling module ADD4
+Compiling module IF_ID
+Compiling module GPRs
+Compiling module CMP
+Compiling module NPC
+Compiling module EXT
+Compiling module CONTROL_ID
+Compiling module ID_EXE
+Compiling module ALU
+Compiling module MULDIV
+Compiling module CONTROL_EX
+Compiling module EX_MEM
+Compiling module BE
+Compiling module DM
+Compiling module CONTROL_MEM
+Compiling module MEM_WB
+Compiling module CONTROL_WB
+Compiling module DM_EXT
+Compiling module BYPASSMUX
+Compiling module BYPASS_CONTROL
+Compiling module MUX
+Compiling module STALL_CONTROL
+Compiling module MIPS
+Compiling module MIPS_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 27 Verilog Units
+Built simulation executable C:/Documents and Settings/P6/p6xin/P6/MIPS_tb_isim_beh.exe
+Fuse Memory Usage: 67840 KB
+Fuse CPU Usage: 1046 ms
